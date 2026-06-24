@@ -5,9 +5,9 @@ A Tabela X apresenta o glossário das variáveis registradas pelo sistema Flood 
 
 | Campo               | Significado                        | Descrição                                                                                                                       |
 | ------------------- | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| **Datasource Name** | Nome da Fonte de Dados             | Identificação da origem dos dados dentro da plataforma de monitoramento.                                                        |
-| **Variable Name**   | Nome da Variável                   | Nome da variável monitorada pelo sistema.                                                                                       |
-| **Value**           | Valor                              | Valor registrado para a variável correspondente.                                                                                |
+| **Datasource Name** | Nome da Fonte de Dados             | O campo Datasource Name identifica a fonte de dados cadastrada na plataforma de monitoramento. Esse parâmetro é utilizado para organizar os dados provenientes de diferentes projetos, localidades ou grupos de sensores.                                                     |
+| **Variable Name**   | Nome da Variável                   | Nome do Sensor. Exemplo> FloodMonitor1, Sensordealagamento, SensorA, etc.                                                                              |
+| **Value**           | Valor                              | O campo Value corresponde a medida real medida pelo sensor ultrasonico, em milimetros. Exemplo: Quantidade de milimetros de chuva (Valor = 10), corresponde a 10 milimetros de água |                                                                              |
 | **Unit**            | Unidade                            | Unidade de medida associada ao valor registrado.                                                                                |
 | **Date**            | Data/Hora                          | Data e horário do registro da medição.                                                                                          |
 | **Description**     | Descrição                          | Descrição textual da variável monitorada.                                                                                       |
